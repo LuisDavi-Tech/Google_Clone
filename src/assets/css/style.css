@@ -1,0 +1,49 @@
+@keyframes move {
+    from{
+        opacity: 0;
+        transform: translateX(-35%);
+    }to {
+        opacity: 1;
+        transform: translateX(0%)
+    }
+}
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.logo{
+    height: 92px;
+    margin-bottom: 89px;
+    animation: move 500ms;
+}
+.search{
+    width: 100%;
+    border: 1px solid #b6b6b6;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    background: #dadada;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    text-align: center;
+    overflow: hidden;
+    animation: move 500ms;
+}
